@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/LordNahi/projectDelta/issues"
   },
-  "homepage": "https://github.com/LordNahi/projectDelta#readme"
+  "homepage": "https://github.com/LordNahi/projectDelta#readme",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
 }
