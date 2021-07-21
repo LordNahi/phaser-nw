@@ -1,0 +1,22 @@
+{
+  "name": "projectdelta",
+  "version": "1.0.0",
+  "description": "A project so secret, Hemana will never know about it",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordNahi/projectDelta.git"
+  },
+  "keywords": [
+    "Delta"
+  ],
+  "author": "Nathan Nahi & Dejan Baker-Petkovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordNahi/projectDelta/issues"
+  },
+  "homepage": "https://github.com/LordNahi/projectDelta#readme"
+}
