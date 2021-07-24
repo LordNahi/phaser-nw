@@ -1,26 +1,28 @@
 {
-  "name": "projectdelta",
+  "name": "phaser-nw-template",
   "version": "1.0.0",
-  "description": "A project so secret, Hemana will never know about it",
-  "main": "main.js",
+  "description": "Template Phaser/nw Project",
+  "main": "dist/index.html",
+  "window": {
+    "title": "Phaser/nw Template",
+    "toolbar": true,
+    "width": 640,
+    "height": 480,
+    "resizable": false,
+    "position": "center"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nw ./",
+    "watch": "parcel watch game/index.html --public-url .",
+    "build": "nwbuild --platforms win32,win64 --buildDir build/ dist/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LordNahi/projectDelta.git"
-  },
-  "keywords": [
-    "Delta"
-  ],
-  "author": "Nathan Nahi & Dejan Baker-Petkovich",
+  "author": "Nathan Nahi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LordNahi/projectDelta/issues"
-  },
-  "homepage": "https://github.com/LordNahi/projectDelta#readme",
   "dependencies": {
-    "http-server": "^0.12.3",
     "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "nw": "^0.54.1-sdk",
+    "nw-builder": "^3.5.7"
   }
 }

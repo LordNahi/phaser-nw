@@ -1,9 +1,11 @@
 import Phaser from 'phaser'
 
+import package from '../../package.json';
+
 var config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 600,
+    width: package.window.width,
+    height: package.window.height,
     physics: {
         default: 'arcade',
         arcade: {
